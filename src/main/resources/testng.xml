@@ -1,0 +1,21 @@
+
+
+<suite name="Suite1" parallel="classes" thread-count="5" verbose="1" >
+
+   <!-- <test name="Test1" >
+        <classes>
+            <class name="Test1" />
+            <methods>
+                <include name="firstTest" />
+                <exclude name="secondTest"/>
+            </methods>
+        </classes>
+    </test>
+
+    <test name="Test2" >
+        <classes>
+            <class name="Test2" />
+        </classes>
+    </test>-->
+
+</suite>
