@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class SetupTest {
     public WebDriver driver;
+  //  public LoginPage logP;
     @BeforeClass
     public  void setUp(){
 
