@@ -15,8 +15,8 @@ public class LoginPage {
 
         WebDriver dr;
         public void login() {
-        dr.findElement().sendKeys("Login");
-            dr.findElement().sendKeys("Password");
+    //    dr.findElement().sendKeys("Login");
+     //       dr.findElement().sendKeys("Password");
 
         enterPass();
         submit();
@@ -31,4 +31,4 @@ public class LoginPage {
 
 
     }
-}
+

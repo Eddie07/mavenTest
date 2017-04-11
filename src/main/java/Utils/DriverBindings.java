@@ -13,8 +13,8 @@ public class DriverBindings
     public DriverBindings(WebDriver dr) {
         this.dr=dr;
     }
-    public void Clickon(String elementId) {
-        dr.findElement().click();
+    public void clickOn(String elementId) {
+        dr.findElement(By.id(elementId)).click();
     }
 
     public void typeText(String elementId, String elementText)

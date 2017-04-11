@@ -1,6 +1,8 @@
 package SmokeTestScope;
 
+import Utils.MyCustomLister;
 import Utils.SetupTest;
+import org.eclipse.jetty.util.log.Log;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -8,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 
@@ -18,11 +21,11 @@ import static java.awt.SystemColor.text;
 /**
  * Created by User on 16.03.2017.
  */
+@Listeners((MyCustomLister.class))
 public class FirstWebDriverTest extends SetupTest {
 
 
-
-
+    Log.d();
 
     @Test
     public void startFirstWebDriverTest() throws InterruptedException{

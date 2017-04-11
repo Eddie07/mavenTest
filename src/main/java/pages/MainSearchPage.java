@@ -17,7 +17,7 @@ public class MainSearchPage {
     public void searchCar() {
 
         drB.typeText("headerSearch","car");
-        drB.clickOn ("submit-searchmain");
-        drB.click();
+      //  drB. ("submit-searchmain");
+        drB.clickOn("submit-searchmmain");
     }
 }
